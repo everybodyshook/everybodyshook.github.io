@@ -23,7 +23,7 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="generic.html" class="active">Generic</a></li>
 						<li><a href="zoom.html" class="active">Zoom</a></li>
-						<li><a href="zoom2.html" class="active">Zoom</a></li>
+						<li><a href="zoom2.html" class="active">Zoom2</a></li>
 						<li><a href="elements.html">Elements</a></li>
 					</ul>
 				</nav>
@@ -36,11 +36,7 @@
 					<section id="main" class="wrapper">
 						<div class="inner">
 							<h1 class="major">OpenSeaDragon Zoom Demo</h1>
-						</div>
-						<div class="inner">
-							<div>
 								<span id='consolelog'></span>
-							</div>
 							<div id="contentDiv" style="width: 800px; height: 600px;"></div>
 							<div class="image-credit">Image &copy; 2012, <a href="https://www.flickr.com/photos/projectese/" target="_blank">Dario Morelli</a></div>
 						</div>
@@ -64,7 +60,7 @@
 					id:              "contentDiv",
 					prefixUrl:       "/openseadragon/images/",
 					tileSources:     "/example-images/duomo/duomo.dzi"
-				});
+				}).setFullScreen(true);
 			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
