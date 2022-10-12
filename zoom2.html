@@ -31,28 +31,21 @@
 					<section id="main" class="wrapper">
 						<div class="inner">
 							<h1 class="major">OpenSeaDragon Zoom Demo</h1>
-							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+							<span class="image fit"><img src="example-images\duomo\duomo_files\8\0_0.jpg" alt="" /></span>
 							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
 							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
 						</div>
+						<div class="demoarea">
+							<div class="major">
+								OpenSeadragon Viewer With Default Settings
+								<span id='consolelog'></span>
+							</div>
+							<div id="contentDiv" class="image fit"></div>
+							<div class="image-credit">Image &copy; 2012, <a href="https://www.flickr.com/photos/projectese/" target="_blank">Dario Morelli</a></div>
+						</div>
 					</section>
 			</div>
-			<div class="demoarea">
-				<div class="major">
-					OpenSeadragon Viewer With Default Settings
-					<span id='consolelog'></span>
-				</div>
-				<div id="contentDiv" class="image fit"></div>
-				<div class="image-credit">Image &copy; 2012, <a href="https://www.flickr.com/photos/projectese/" target="_blank">Dario Morelli</a></div>
-			</div>
-			<script type="text/javascript">
-				// Example
-				OpenSeadragon({
-					id:              "contentDiv",
-					prefixUrl:       "/openseadragon/images/",
-					tileSources:     "/example-images/duomo/duomo.dzi"
-				});
-			</script>
+
 		<!-- Footer -->
 			<footer id="footer" class="wrapper alt">
 				<div class="inner">
@@ -63,6 +56,14 @@
 			</footer>
 
 		<!-- Scripts -->
+			<script type="text/javascript">
+				// Example
+				OpenSeadragon({
+					id:              "contentDiv",
+					prefixUrl:       "/openseadragon/images/",
+					tileSources:     "/example-images/duomo/duomo.dzi"
+				});
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
