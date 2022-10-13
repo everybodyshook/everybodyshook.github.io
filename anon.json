@@ -1,0 +1,52 @@
+[
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "value": "The Maltusian",
+                "purpose": "commenting"
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "tagging",
+                "value": "1920s"
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "tagging",
+                "value": "Malthusian"
+            }
+        ],
+        "target": {
+            "source": "/generic.html",
+            "selector": {
+                "type": "FragmentSelector",
+                "conformsTo": "http://www.w3.org/TR/media-frags/",
+                "value": "xywh=pixel:40.00493621826172,3149.842041015625,1690.5180130004883,2243.588623046875"
+            }
+        },
+        "id": "#d57f5d32-572e-4445-8b6a-1e8c97b8c308"
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "value": "Charles",
+                "purpose": "commenting"
+            }
+        ],
+        "target": {
+            "source": "http://127.0.0.1:3000/undefined",
+            "selector": {
+                "type": "FragmentSelector",
+                "conformsTo": "http://www.w3.org/TR/media-frags/",
+                "value": "xywh=pixel:840.4580078125,2236.35693359375,938.8167724609375,925.732177734375"
+            }
+        },
+        "id": "#73e125a9-cabf-4104-88c2-4a38688835c8"
+    }
+]
