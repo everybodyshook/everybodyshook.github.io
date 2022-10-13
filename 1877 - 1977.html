@@ -39,6 +39,9 @@
 	#toolbar {
     padding-bottom:10px;
   	}
+	#savebtn {
+    	position: absolute !important;
+  	}
 	@media only screen and (max-width: 800px) {
 		.r6o-editor {
   		width:260px !important;
@@ -81,12 +84,12 @@
 		anno = OpenSeadragon.Annotorious(viewer);
 		toolbar = document.getElementById('toolbar')
 		Annotorious.Toolbar(anno, toolbar);
-		$("div.a9s-toolbar").append($('<button class="icon solid fa-save a9s-toolbar-btn" onclick="saveAnno()"></button>'))
+		$("div.a9s-toolbar").append($('<button id="savebtn" class="a9s-toolbar-btn" onclick="saveAnno()"><span class="a9s-toolbar-btn-inner icon solid fa-save fit"></span></button>'))
 		// Load annotations in W3C WebAnnotation format
 		anno.loadAnnotations('1877-annotations.json');
 		function saveAnno() {
         	console.log(decodeURI(JSON.stringify(anno.getAnnotations())));
-			console.log("what");
+			//console.log("what");
       	}
 	</script>	
 
