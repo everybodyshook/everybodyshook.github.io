@@ -5,7 +5,7 @@
         "body": [
             {
                 "type": "TextualBody",
-                "value": "The Malthusian",
+                "value": "The Maltusian",
                 "purpose": "commenting"
             },
             {
@@ -17,6 +17,16 @@
                 "type": "TextualBody",
                 "purpose": "tagging",
                 "value": "Malthusian"
+            },
+            {
+                "type": "TextualBody",
+                "value": "A crusade against Poverty",
+                "purpose": "commenting"
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "tagging",
+                "value": "Poverty"
             }
         ],
         "target": {
@@ -48,5 +58,29 @@
             }
         },
         "id": "#73e125a9-cabf-4104-88c2-4a38688835c8"
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "value": "Margie",
+                "purpose": "commenting"
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "tagging",
+                "value": "birth control"
+            }
+        ],
+        "target": {
+            "source": "https://everybodyshook.github.io/undefined",
+            "selector": {
+                "type": "SvgSelector",
+                "value": "<svg><polygon points=\"2038.8424072265625,4531.47314453125 2036.5433349609375,4531.47314453125 2011.2537841796875,4506.18359375 2022.7491455078125,4457.90380859375 2059.533935546875,4416.52099609375 2089.421630859375,4363.642578125 2162.9912109375,4326.85791015625 2192.87890625,4342.951171875 2234.26171875,4368.24072265625 2234.26171875,4460.20263671875 2208.97216796875,4542.96875 2268.74755859375,4713.09814453125 2257.252197265625,5099.3388671875 2254.953125,5136.12353515625 1866.4136962890625,5138.4228515625 1845.72216796875,4965.994140625 1944.5814208984375,4664.818359375 2031.9453125,4549.86572265625 2038.8424072265625,4540.66943359375\"></polygon></svg>"
+            }
+        },
+        "id": "#d0cc9306-85fb-4957-9ff6-29b04d383182"
     }
 ]
