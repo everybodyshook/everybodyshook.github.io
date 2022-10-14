@@ -5,9 +5,53 @@
         "body": [
             {
                 "type": "TextualBody",
-                "value": "The Maltusian",
+                "value": "Charles",
                 "purpose": "commenting"
-            },            
+            }
+        ],
+        "target": {
+            "source": "https://everybodyshook.github.io/undefined",
+            "selector": {
+                "type": "FragmentSelector",
+                "conformsTo": "http://www.w3.org/TR/media-frags/",
+                "value": "xywh=pixel:840.4580078125,2236.35693359375,1097.8153076171875,939.236083984375"
+            }
+        },
+        "id": "#73e125a9-cabf-4104-88c2-4a38688835c8"
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "value": "Margie",
+                "purpose": "commenting"
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "tagging",
+                "value": "birth control"
+            }
+        ],
+        "target": {
+            "source": "https://everybodyshook.github.io/undefined",
+            "selector": {
+                "type": "SvgSelector",
+                "value": "<svg><polygon points=\"1867.1,4571.5 1864.8,4571.5 1839.5,4546.2 1851,4497.9 1887.8,4456.5 1917.7,4403.6 1991.2,4366.9 2021.1,4383 2062.5,4408.2 2062.5,4500.2 2037.2,4583 2097,4753.1 2085.5,5139.3 2083.2,5176.1 1694.7,5178.4 1674,5006 1772.8,4704.8 1860.2,4589.9 1867.1,4580.7\"></polygon></svg>"
+            }
+        },
+        "id": "#d0cc9306-85fb-4957-9ff6-29b04d383182"
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "value": "The Malthusian",
+                "purpose": "commenting"
+            },
             {
                 "type": "TextualBody",
                 "purpose": "linking",
@@ -35,57 +79,13 @@
             }
         ],
         "target": {
-            "source": "http://127.0.0.1:3000/undefined",
+            "source": "https://everybodyshook.github.io/undefined",
             "selector": {
                 "type": "FragmentSelector",
                 "conformsTo": "http://www.w3.org/TR/media-frags/",
-                "value": "xywh=pixel:40.00493621826172,3149.842041015625,1690.5180130004883,2243.588623046875"
+                "value": "xywh=pixel:127.74883270263672,3205.172119140625,1686.5763626098633,2208.200439453125"
             }
         },
         "id": "#d57f5d32-572e-4445-8b6a-1e8c97b8c308"
-    },
-    {
-        "@context": "http://www.w3.org/ns/anno.jsonld",
-        "type": "Annotation",
-        "body": [
-            {
-                "type": "TextualBody",
-                "value": "Charles",
-                "purpose": "commenting"
-            }
-        ],
-        "target": {
-            "source": "http://127.0.0.1:3000/undefined",
-            "selector": {
-                "type": "FragmentSelector",
-                "conformsTo": "http://www.w3.org/TR/media-frags/",
-                "value": "xywh=pixel:840.4580078125,2236.35693359375,938.8167724609375,925.732177734375"
-            }
-        },
-        "id": "#73e125a9-cabf-4104-88c2-4a38688835c8"
-    },
-    {
-        "@context": "http://www.w3.org/ns/anno.jsonld",
-        "type": "Annotation",
-        "body": [
-            {
-                "type": "TextualBody",
-                "value": "Margie",
-                "purpose": "commenting"
-            },
-            {
-                "type": "TextualBody",
-                "purpose": "tagging",
-                "value": "birth control"
-            }
-        ],
-        "target": {
-            "source": "https://everybodyshook.github.io/undefined",
-            "selector": {
-                "type": "SvgSelector",
-                "value": "<svg><polygon points=\"2038.8424072265625,4531.47314453125 2036.5433349609375,4531.47314453125 2011.2537841796875,4506.18359375 2022.7491455078125,4457.90380859375 2059.533935546875,4416.52099609375 2089.421630859375,4363.642578125 2162.9912109375,4326.85791015625 2192.87890625,4342.951171875 2234.26171875,4368.24072265625 2234.26171875,4460.20263671875 2208.97216796875,4542.96875 2268.74755859375,4713.09814453125 2257.252197265625,5099.3388671875 2254.953125,5136.12353515625 1866.4136962890625,5138.4228515625 1845.72216796875,4965.994140625 1944.5814208984375,4664.818359375 2031.9453125,4549.86572265625 2038.8424072265625,4540.66943359375\"></polygon></svg>"
-            }
-        },
-        "id": "#d0cc9306-85fb-4957-9ff6-29b04d383182"
     }
 ]
