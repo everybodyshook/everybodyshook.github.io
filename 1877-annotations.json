@@ -7,6 +7,11 @@
                 "type": "TextualBody",
                 "value": "The Maltusian",
                 "purpose": "commenting"
+            },            
+            {
+                "type": "TextualBody",
+                "purpose": "linking",
+                "value": "/generic.html"
             },
             {
                 "type": "TextualBody",
@@ -30,7 +35,7 @@
             }
         ],
         "target": {
-            "source": "/generic.html",
+            "source": "http://127.0.0.1:3000/undefined",
             "selector": {
                 "type": "FragmentSelector",
                 "conformsTo": "http://www.w3.org/TR/media-frags/",
