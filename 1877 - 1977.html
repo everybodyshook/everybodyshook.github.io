@@ -2,7 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>1877-1977 - everybodyshook</title>
+	<meta property="og:image" content="https://everybodyshook.github.io/1877%20-%201977/1877-1977rec.jpg" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="1159" />
+	<meta property="og:image:height" content="633" />
+	<meta property="og:image:alt" content="A Time Travelers Guide" />
+    <title>1877-1977 - A Time Traveler's Guide</title>
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
@@ -95,11 +100,10 @@
 			}]	
 		});
 		// Initialize the Annotorious plugin
-		window.ebs = {};
-		anno = OpenSeadragon.Annotorious(viewer);
-		toolbar = document.getElementById('toolbar')
-		Annotorious.Toolbar(anno, toolbar);
-		$("div.a9s-toolbar").append($('<button id="savebtn" class="a9s-toolbar-btn" onclick="saveAnno()"><span class=" a9s-toolbar-btn-inner icon fa-save scaling-svg-container" style="postition:center; !important"></span></button>'))
+		//anno = OpenSeadragon.Annotorious(viewer);
+		//toolbar = document.getElementById('toolbar')
+		//Annotorious.Toolbar(anno, toolbar);
+		//$("div.a9s-toolbar").append($('<button id="savebtn" class="a9s-toolbar-btn" onclick="saveAnno()"><span class=" a9s-toolbar-btn-inner icon fa-save scaling-svg-container" style="postition:center; !important"></span></button>'))
 		// Load annotations in W3C WebAnnotation format
 		anno.loadAnnotations('1877-annotations.json');
 		function saveAnno() {
